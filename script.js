@@ -122,13 +122,10 @@
       ];
       
       function getRandomKiller() {
-        // Calculate the total weight of all killers
         const totalWeight = killers.reduce((sum, killer) => sum + killer.weight, 0);
       
-        // Generate a random number between 0 and the total weight
         const randomWeight = Math.random() * totalWeight;
       
-        // Determine the selected killer based on their weights
         let cumulativeWeight = 0;
         for (const killer of killers) {
           cumulativeWeight += killer.weight;
@@ -137,7 +134,6 @@
           }
         }
       
-        // This should not happen, but just in case, return the last killer
         return killers[killers.length - 1];
       }
       
