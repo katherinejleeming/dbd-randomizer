@@ -121,7 +121,7 @@
         },
         {
             name: "Trickster",
-            image: "",
+            image: "images/trickster.jpg",
             weight: 4
         }
       ];
