@@ -9,11 +9,11 @@
           image: "images/wraith.jpg",
           weight: 5
         },
-        {
+        /*{
             name: "Hillbilly",
             image: "images/hillbilly.jpg",
             weight: 2
-        },
+        },*/
         {
             name: "Nurse",
             image: "images/nurse.jpg",
@@ -24,11 +24,11 @@
             image: "images/shape.jpg",
             weight: 3
         },
-        {
+       /* {
             name: "Hag",
             image: "images/hag.jpg",
-            weight: 2
-        },
+            weight: 1
+        },*/
         {
             name: "Doctor",
             image: "images/doctor.jpg",
@@ -97,7 +97,7 @@
         {
             name: "Singularity",
             image: "images/singularity.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Knight",
@@ -107,7 +107,7 @@
         {
             name: "Mastermind",
             image: "images/mastermind.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Dredge",
@@ -119,6 +119,11 @@
             image: "images/onryo.jpg",
             weight: 3
         },
+        {
+            name: "Trickster",
+            image: "",
+            weight: 4
+        }
       ];
       
       function getRandomKiller() {
