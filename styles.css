@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "league-gothic", sans-serif;
     color: red;
     margin: 0;
     padding: 0;
     background-color: black;
+    font-size: 40px;
   }
   
   .container {
@@ -31,5 +32,7 @@ body {
   }
 
   p {
-    align-items: center;
+    font-size: small;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
