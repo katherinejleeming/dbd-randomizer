@@ -120,6 +120,11 @@
             weight: 3
         },
         {
+            name: "Xenomorph",
+            image: "images/xenomorph.jpg",
+            weight: 5
+        },
+        {
             name: "Trickster",
             image: "images/trickster.jpg",
             weight: 4
