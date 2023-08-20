@@ -9,11 +9,11 @@
           image: "images/wraith.jpg",
           weight: 5
         },
-        /*{
+        {
             name: "Hillbilly",
             image: "images/hillbilly.jpg",
-            weight: 2
-        },*/
+            weight: 1
+        },
         {
             name: "Nurse",
             image: "images/nurse.jpg",
@@ -24,11 +24,11 @@
             image: "images/shape.jpg",
             weight: 3
         },
-       /* {
+        {
             name: "Hag",
             image: "images/hag.jpg",
             weight: 1
-        },*/
+        },
         {
             name: "Doctor",
             image: "images/doctor.jpg",
@@ -119,11 +119,11 @@
             image: "images/onryo.jpg",
             weight: 3
         },
-        {
+        /*{
             name: "Xenomorph",
             image: "images/xenomorph.jpg",
             weight: 5
-        },
+        },*/
         {
             name: "Trickster",
             image: "images/trickster.jpg",
