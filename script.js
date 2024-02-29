@@ -1,13 +1,13 @@
      const killers = [
         {
-          name: "Trapper",
-          image: "images/trapper.jpg",
-          weight: 3
+            name: "Trapper",
+            image: "images/trapper.jpg",
+            weight: 3
         },
         {
-          name: "Wraith",
-          image: "images/wraith.jpg",
-          weight: 5
+            name: "Wraith",
+            image: "images/wraith.jpg",
+            weight: 5
         },
         {
             name: "Hillbilly",
