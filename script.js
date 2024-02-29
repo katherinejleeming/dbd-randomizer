@@ -161,7 +161,7 @@
       
       document.getElementById("randomButton").addEventListener("click", displayRandomKiller);
 
-      function playMusic(){
-        var music = new Audio('spinthatwheel.mp3');
-        music.play();
-        }
+    //   function playMusic(){
+    //     var music = new Audio('spinthatwheel.mp3');
+    //     music.play();
+    //     }
