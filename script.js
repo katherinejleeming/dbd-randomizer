@@ -1,4 +1,4 @@
-     const killers = [
+    const killers = [
         {
             name: "Trapper",
             image: "images/trapper.jpg",
@@ -131,6 +131,8 @@
         }
       ];
       
+
+      // function to randomize a character incorporating preference 
       function getRandomKiller() {
         const totalWeight = killers.reduce((sum, killer) => sum + killer.weight, 0);
       
@@ -147,6 +149,7 @@
         return killers[killers.length - 1];
       }
       
+      //display image including alt text in case image doesn't load
       function displayRandomKiller() {
         const outputElement = document.getElementById("output");
         const killer = getRandomKiller();
@@ -158,7 +161,7 @@
         const killerNameElement = document.getElementById("killerName");
         killerNameElement.textContent = killer.name;
       }
-      
+      // action to utilise functions
       document.getElementById("randomButton").addEventListener("click", displayRandomKiller);
 
     //   function playMusic(){
