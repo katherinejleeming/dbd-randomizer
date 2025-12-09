@@ -2,12 +2,12 @@
         {
             name: "Trapper",
             image: "images/trapper.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Wraith",
             image: "images/wraith.jpg",
-            weight: 5
+            weight: 1
         },
         {
             name: "Hillbilly",
@@ -17,12 +17,12 @@
         {
             name: "Nurse",
             image: "images/nurse.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Shape",
             image: "images/shape.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Hag",
@@ -32,67 +32,67 @@
         {
             name: "Doctor",
             image: "images/doctor.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Huntress",
             image: "images/huntress.jpg",
-            weight: 6
+            weight: 1
         },
         {
             name: "Clown",
             image: "images/clown.jpg",
-            weight: 5
+            weight: 1
         },
         {
             name: "Legion",
             image: "images/legion.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Plague",
             image: "images/plague.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Ghost Face",
             image: "images/ghostface.jpg",
-            weight: 5
+            weight: 1
         },
         {
             name: "Demogorgon",
             image: "images/demogorgon.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Oni",
             image: "images/oni.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Deathslinger",
             image: "images/deathslinger.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Blight",
             image: "images/blight.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Twins",
             image: "images/twins.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Nemesis",
             image: "images/nemesis.jpg",
-            weight: 2
+            weight: 1
         },
         {
             name: "Cenobite",
             image: "images/cenobite.jpg",
-            weight: 4
+            weight: 1
         },
         {
             name: "Singularity",
@@ -102,7 +102,7 @@
         {
             name: "Knight",
             image: "images/knight.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Mastermind",
@@ -112,33 +112,74 @@
         {
             name: "Dredge",
             image: "images/dredge.jpg",
-            weight: 4
+            weight: 1
         },
         {
             name: "Onryo",
             image: "images/onryo.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Xenomorph",
             image: "images/xenomorph.jpg",
-            weight: 5
+            weight: 1
         },
         {
             name: "Trickster",
             image: "images/trickster.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Unknown",
             image: "images/unknown.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Dark Lord",
             image: "images/darklord.jpg",
-            weight: 6
+            weight: 1
+        },
+        {
+            name: "Litch",
+            image: "images/litch.jpg",
+            weight: 3
+        },
+        {
+            name: "Good Guy",
+            image: "images/goodguy.jpg",
+            weight: 3
+        },
+        {
+            name: "Ghoul",
+            image: "images/ghoul.jpg",
+            weight: 3
+        },
+        {
+            name: "Houndmaster",
+            image: "images/houndmaster.jpg",
+            weight: 3
+        },
+        {
+            name: "Artist",
+            image: "images/artist.jpg",
+            weight: 3
+        },
+        {
+            name: "Spirit",
+            image: "images/spirit.jpg",
+            weight: 3
+        },
+        {
+            name: "Animatronic",
+            image: "images/animatronic.jpg",
+            weight: 1
+        },
+        {
+            name: "Nightmare",
+            image: "images/nightmare.jpg",
+            weight: 1
         }
+
       ];
       
 
@@ -181,6 +222,7 @@
         if (!isPlaying) {
             isPlaying = true;
             music = new Audio('spinthatwheel.mp3');
+            music.volume = 0.2;
             music.play();
             
             music.addEventListener('ended', function () {
