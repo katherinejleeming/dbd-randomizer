@@ -127,7 +127,17 @@
         {
             name: "Trickster",
             image: "images/trickster.jpg",
-            weight: 4
+            weight: 3
+        },
+        {
+            name: "Unknown",
+            image: "images/unknown.jpg",
+            weight: 3
+        },
+        {
+            name: "Dark Lord",
+            image: "images/darklord.jpg",
+            weight: 6
         }
       ];
       
@@ -164,7 +174,17 @@
       // action to utilise functions
       document.getElementById("randomButton").addEventListener("click", displayRandomKiller);
 
-    //   function playMusic(){
-    //     var music = new Audio('spinthatwheel.mp3');
-    //     music.play();
-    //     }
+    let isPlaying = false;
+    let music;
+
+    function playMusic() {
+        if (!isPlaying) {
+            isPlaying = true;
+            music = new Audio('spinthatwheel.mp3');
+            music.play();
+            
+            music.addEventListener('ended', function () {
+                isPlaying = false;
+            });
+    }
+}
