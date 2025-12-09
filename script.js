@@ -140,34 +140,34 @@
             weight: 1
         },
         {
-            name: "Litch",
-            image: "images/litch.jpg",
-            weight: 3
+            name: "Lich",
+            image: "images/lich.jpg",
+            weight: 1
         },
         {
             name: "Good Guy",
             image: "images/goodguy.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Ghoul",
             image: "images/ghoul.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Houndmaster",
             image: "images/houndmaster.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Artist",
             image: "images/artist.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Spirit",
             image: "images/spirit.jpg",
-            weight: 3
+            weight: 1
         },
         {
             name: "Animatronic",
