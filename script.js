@@ -178,6 +178,21 @@
             name: "Nightmare",
             image: "images/nightmare.jpg",
             weight: 1
+        },
+        {
+            name: "Slasher",
+            image: "images/slasher.jpg",
+            weight: 1
+        },
+        {
+            name: "First",
+            image: "images/first.jpg",
+            weight: 1
+        },
+        {
+            name: "Krasue",
+            image: "images/krasue.jpg",
+            weight: 1
         }
 
       ];
