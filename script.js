@@ -197,7 +197,6 @@
 
       ];
       
-
       // function to randomize a character incorporating preference 
       function getRandomKiller() {
         const totalWeight = killers.reduce((sum, killer) => sum + killer.weight, 0);
